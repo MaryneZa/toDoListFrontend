@@ -51,6 +51,7 @@ const LogIn = () => {
 
   return (
     <div>
+      <div>
       <span>login</span>
       <label>username</label>
       <input
@@ -73,6 +74,7 @@ const LogIn = () => {
       <button type="submit" onClick={LoginData}>
         submit
       </button>
+      </div>
     </div>
   );
 };
